@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::before{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.full-body{
+    margin: 0 auto;
+    color: #ffffff;
+}
+.header{
+    background: #22c3a3;
+    padding: 0px 20px;
+
+}
+.logo{
+    width: 25%;
+    float: left;
+    padding: 16px 30px;
+    font-weight: 600;
+}
+.logo a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;
+}
+.logo a:hover{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;
+}
+.manu{
+    width: 70%;
+    float: right;
+}
+.manu ul{
+    text-align: right;
+
+}
+.manu ul li{
+    text-align: right;
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+.manu ul li a{
+    color: #ffffff;
+    text-decoration: none;
+
+}
+.manu ul li a:hover{
+
+}
+
+
+/* banar Style */
+.banner{
+    text-align: center;
+    background-image: url('https://i.ibb.co/D5ZCPf6/header-bg01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 450px;
+    background-size: 100%;   
+
+}
+.banner h1{
+    color: #ffffff;
+    font-size: 70px;
+    margin-bottom: 30px;
+    padding-top: 100px;
+}
+.banner h5{
+    color: #ffffff;
+    margin-bottom: 60px;
+}
+
+.banner a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-bottom: 300px;
+    
+}
+
+
+/*  service start*/
+
+.our-service{
+    margin-bottom: 100px;
+    border-bottom: 2px solid #22c3a3;
+    
+}
+.service-text h2{
+    color: #555555;
+    text-align: center;
+    font-size: 40px;
+}
+.service-text p{
+    color: #555555;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.Services{
+    width: 90%;
+    margin: auto;
+
+}
+.service{
+    text-align: center;
+    width: 25%;
+    padding: 98px;
+    float: left;
+    box-sizing: border-box;
+}
+.service i{
+    color: #22c3a3;
+    font-size: 50px;
+    padding: 20px 0;
+}
+.service h3{
+    color: #555555;
+}
+.service p{
+    color: #555555;
+}
+
+
+
+/* about us*/
+.about-us{
+    margin-bottom: 100px;
+    box-sizing: border-box;
+}
+.about-text{
+    text-align: center;
+    color: #555555;
+    margin: 0;
+}
+.about-text h2{}
+.about-text p{}
+
+.about-contain{
+    margin-top: 60px;
+    float: left;
+    box-sizing: border-box;
+}
+.about-img{
+    width: 50%;
+    float: left;
+    padding: 10px 40px;
+
+}
+.about-img img{
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+}
+.about-con{
+    width: 50%;
+    float: right;
+    padding: 0px 50px;
+    box-sizing: border-box;
+}
+.about{ 
+    padding: 10px 0px;
+}
+.about h3{ 
+    color: #555555;
+}
+.about p{
+    color: #555555;
+
+}
+
+/* contract us*/
+.contract-us{
+    padding: 100px 0px;
+    background-color: #f6f6f6;
+}
+.contract-text{
+    text-align: center;
+}
+.contract-text h2{
+    color: #555555;
+
+}
+.contract-text p{
+    color: #555555;
+    padding: 20px 0px;
+}
+
+.contracts{
+    width: 60%;
+    margin: auto;
+    padding-top: 10px;
+
+}
+.contract{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    padding: 0px 80px;
+}
+.contract i{
+    color: #22c3a3;
+    font-size: 20px;
+    padding: 20px 0;
+}
+.contract p{    
+    color: #555555;
+}
+
+.social-icon{
+background-color: #0dbf9b;
+}
+.social{
+    margin: auto;
+    text-align: center;
+    padding: 20px 0px;
+
+}
+.social i{
+
+}
+span{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: #ffffff;
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 18px;
+
+
+
+}
+
+
+
+.footer{
+   background-color: #222222;
+   padding: 15px 0px;
+
+}
+.footer p{
+    color: #555555;
+    text-align: center;
+
+}
+
+
